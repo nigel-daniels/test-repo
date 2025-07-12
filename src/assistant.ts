@@ -439,4 +439,4 @@ export const overallWorkflow = new StateGraph(state)
 export const emailAssistant = overallWorkflow.compile();
 
 // Visualize the graph
-// showGraph(emailAssistant, true);
+showGraph(emailAssistant, true, 'graph');
