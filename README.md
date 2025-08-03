@@ -1,10 +1,9 @@
 # Test Repo
-To run this test:
+1. Start the graph:
 ```sh
-git clone git@github.com:nigel-daniels/test-repo.git
-cd test-repo
-npm install
-cd src
 npx @langchain/langgraph-cli dev
 ```
-I was using the Opera browser.
+2. Run the cron starter:
+```sh
+npx tsx start.ts -u http://localhost:2024/
+```

@@ -1,5 +1,0 @@
-{
-  "graphs": {
-	"assistant": "./assistant.ts:emailAssistant"
-  }
-}
